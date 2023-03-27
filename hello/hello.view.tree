@@ -1,0 +1,6 @@
+$bender_hello $mol_page
+	title \STRING
+	body /
+		<= Hello_button $mol_button_major
+			title <= button_title @ \Button
+		<= Input_ultra $mol_textarea
